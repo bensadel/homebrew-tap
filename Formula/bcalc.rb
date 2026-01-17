@@ -9,7 +9,7 @@ class Bcalc < Formula
   depends_on "readline"
 
   def install
-    system ENV.cc, "bcalc.c", "-o", "bcalc", "-lreadline", "-lm"
+    system ENV.cc, "src/bcalc.c", "-o", "bcalc", "-lreadline", "-lm"
     bin.install "bcalc"
     man1.install "man/bcalc.1"
   end

@@ -6,8 +6,11 @@ class Bcalc < Formula
   license "GPL-3.0-or-later"
   head "https://github.com/bensadel/bcalc.git", branch: "main"
 
+  depends_on "readline"
+
   def install
-    bin.install "bin/bcalc"
+    system ENV.cc, "bcalc.c", "-o", "bcalc", "-lreadline", "-lm"
+    bin.install "bcalc"
     man1.install "man/bcalc.1"
   end
 

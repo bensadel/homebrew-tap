@@ -1,5 +1,5 @@
 class Bcalc < Formula
-  desc "The insanely simple command line calculator for macOS"
+  desc "Insanely simple command-line calculator for macOS"
   homepage "https://github.com/bensadel/bcalc"
   url "https://github.com/bensadel/bcalc/archive/refs/tags/v0.0.1.tar.gz"
   sha256 "58cbd37d63bea310720cf9752a9826ff739440068bf669f2e843ccbd26927ce6"

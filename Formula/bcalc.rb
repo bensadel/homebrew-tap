@@ -1,8 +1,8 @@
 class Bcalc < Formula
   desc "Insanely simple command-line calculator for macOS"
   homepage "https://github.com/bensadel/bcalc"
-  url "https://github.com/bensadel/bcalc/archive/refs/tags/v0.0.2.tar.gz"
-  sha256 "36980cef3d3ab60acb2799dbeae1f587b450d4407ce4fef6c8f2c56870a76b46"
+  url "https://github.com/bensadel/bcalc/archive/refs/tags/v0.0.3.tar.gz"
+  sha256 "78e508da7a9cbbe13d93162e1a3e1d2f05d7bbf7e0450240d0695bff398a4410"
   license "GPL-3.0-or-later"
   head "https://github.com/bensadel/bcalc.git", branch: "main"
 

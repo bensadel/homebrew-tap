@@ -1,4 +1,4 @@
-# Bensadel Tap
+# Instructions
 
 ## How do I install these formulae?
 
